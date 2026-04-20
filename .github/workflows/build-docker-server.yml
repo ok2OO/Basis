@@ -110,7 +110,7 @@ jobs:
             customParameters: -standaloneBuildSubtarget Server -linuxArchitecture X64
             buildMethod: BasisHeadlessBuild.BuildLinuxServer
           - targetPlatform: StandaloneLinux64
-            buildPlatform: macos-14
+            buildPlatform: ubuntu-latest
             buildName: HeadlessLinuxServer
             buildOutput: LinuxServerArm64
             artifactName: LinuxHeadlessArm64
